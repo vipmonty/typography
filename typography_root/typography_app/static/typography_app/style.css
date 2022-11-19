@@ -4,8 +4,13 @@
 
 }
 
+@font-face {
+    font-family: "oldenglishvip";
+    src: url('../typography_app/magnific-caos-font/MagnificChaosPersonalUseRegular-x3J88.ttf') format('truetype');
+}
+
 html {
-    font-family: cursivevip;
+    font-family: oldenglishvip;
     font-size: 18px;
 }
 
