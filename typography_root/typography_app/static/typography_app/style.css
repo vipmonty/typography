@@ -1,4 +1,11 @@
+@font-face {
+    font-family: "cursivevip";
+    src: url('../typography_app/Cedarville_Cursive/CedarvilleCursive-Regular.ttf') format('truetype');
+
+}
+
 html {
+    font-family: cursivevip;
     font-size: 18px;
 }
 
@@ -14,15 +21,21 @@ html {
     }
 }
 
+
+
+
 /* Header */
 
 .header {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4.44rem;
     padding: 0 12%;
-    background-color: white;
+    background-color: rgb(360, 26, 78);
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     font-family: Verdana, sans-serif;
     font-size: .77rem;
@@ -30,7 +43,9 @@ html {
 
 .header .logo {
     flex-grow: 1;
-    color: #ffb78c;
+    color: rgb(188, 235, 19);
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .header li {
@@ -67,6 +82,8 @@ html {
 }
 
 .banner h2 {
+    color: yellow;
+    font-weight: 900;
     padding: .55rem 0;
     border-top: 4px solid #ffb78c;
     border-bottom: 4px solid #ffb78c;
@@ -75,6 +92,7 @@ html {
 }
 
 .banner h1 {
+    font-weight: 500;
     padding-top: 1.11rem;
     font-size: 11rem;
 }
@@ -129,21 +147,25 @@ html {
 }
 
 .photo.first {
-    position: relative;
+    color: brown position: relative;
     top: -2.77rem;
     margin-bottom: 1.67rem;
 }
 
 .journal p {
+    color: blue;
+    line-height: 1.2;
     padding-bottom: 2.77rem;
     font-size: 1.5rem;
 }
 
 .journal .first-letter {
+    color: crimson;
     float: left;
     padding-right: 1.4rem;
     font-family: "Abril Fatface", serif;
     font-size: 7.44rem;
+    line-height: .87;
     color: #10b0d8;
 }
 
