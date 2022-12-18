@@ -1,0 +1,1 @@
+web gunicorn viphakone_website.wsgi:application --log-file -
